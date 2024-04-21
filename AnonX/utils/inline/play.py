@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ 𝘾𝙍 𖢻 ⌯ َِ𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹🎧˼⁩", url=f"https://t.me/pp_g3"
+                text="كبتاغون😂Cptagon", url=f"https://t.me/Cptagon"
             )
         ],
         [
@@ -123,7 +123,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ 𝘾𝙍 𖢻 ⌯ َِ𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹🎧˼⁩", url=f"https://t.me/pp_g3"
+                text="كبتاغون😂Cptagon", url=f"https://t.me/Cptagon"
             )
         ],
         [
@@ -157,7 +157,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ 𝘾𝙍 𖢻 ⌯ َِ𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹🎧˼⁩", url=f"https://t.me/pp_g3"
+                text="كبتاغون😂Cptagon", url=f"https://t.me/Cptagon"
             )
         ],
         [
@@ -188,7 +188,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ 𝘾𝙍 𖢻 ⌯ َِ𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹🎧˼⁩", url=f"https://t.me/pp_g3"
+                text="كبتاغون😂Cptagon", url=f"https://t.me/Cptagon"
             )
         ],
         [
@@ -207,11 +207,11 @@ def track_markup(_, videoid, user_id, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_1"],
+                text=_["Cptagon"],
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["CCA6A"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
         ],
@@ -231,13 +231,13 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_3"],
+                text=_["FF22OO"],
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_3"],
+                text=_["NNA5A"],
                 url=f"{config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
@@ -254,17 +254,17 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_1"],
+                text=_["Cptagon"],
                 callback_data=f"AnonPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["CCA6A"],
                 callback_data=f"AnonPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_3"],
+                text=_["NNA5A"],
                 url=f"{config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
@@ -286,11 +286,11 @@ def slider_markup(
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_1"],
+                text=_["Cptagon"],
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["CCA6A"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
         ],
@@ -348,7 +348,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ 𝘾𝙍 𖢻 ⌯ َِ𝙈َِ𝙐َِ𝙎َِ𝙄َِ𝘾 ⌯ ˹🎧˼⁩", url=f"https://t.me/pp_g3"
+               text="كبتاغون😂Cptagon", url=f"https://t.me/Cptagon"
             )
         ],
         [
