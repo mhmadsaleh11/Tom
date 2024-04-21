@@ -8,13 +8,13 @@ from AnonX import app
 import re
 import sys
 
-GAME_MESSAGE = "⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب cr\n\n⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺"
+GAME_MESSAGE = "⩹━★⊷━⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝━⊶★━⩺\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب cr\n\n⩹━★⊷━⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝━⊶★━⩺"
 GAME_BUTTONS = [
     [ 
-        InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
-        InlineKeyboardButton ('cr cr', callback_data= 'GAME2'),
+        InlineKeyboardButton ( ★¦العاب 3D , callback_data=  GAME1 ),
+        InlineKeyboardButton ( cr cr , callback_data=  GAME2 ),
         ],[
-        InlineKeyboardButton ('⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡️', url =f"https://t.me/pp_g3")              
+        InlineKeyboardButton ( ⌞𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝⚡️ , url =f"https://t.me/CCA6A")              
                  ],[
                 InlineKeyboardButton(
                         "◁", callback_data="close"),
@@ -316,7 +316,7 @@ async def zohary(client: Client, message: Message):
 async def callback_query(client, CallbackQuery):
           if CallbackQuery.data == "GAME1":
             
-             GAME1_MESSAGE = "⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺\n\nمرحبا بك في قسم العاب cr 3D\n\n⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺"
+             GAME1_MESSAGE = "⩹━★⊷━⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝━⊶★━⩺\n\nمرحبا بك في قسم العاب cr 3D\n\n⩹━★⊷━⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝━⊶★━⩺"
 
              GAME1_BUTTONS = [
                  [
@@ -351,7 +351,7 @@ async def callback_query(client, CallbackQuery):
                         "°القط المجنون°" , url=f"http://t.me/gamee?game=CrazyCat"),
                 ],[
                     InlineKeyboardButton (
-                        "◁" , callback_data= 'GAME')
+                        "◁" , callback_data=  GAME )
                   ],
              ]
              await CallbackQuery.edit_message_text( 
@@ -360,14 +360,14 @@ async def callback_query(client, CallbackQuery):
               )
           elif CallbackQuery.data == "GAME":
                
-               RETURN_GAME = "⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺\n\n★¦مرحبا بك في قسم العاب cr\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺" 
+               RETURN_GAME = "⩹━★⊷━⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝━⊶★━⩺\n\n★¦مرحبا بك في قسم العاب cr\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⩹━★⊷━⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝━⊶★━⩺" 
 
                RETURN_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
-                      InlineKeyboardButton ('★¦العاب cr', callback_data= 'GAME2')
+                      InlineKeyboardButton ( ★¦العاب 3D , callback_data=  GAME1 ),
+                      InlineKeyboardButton ( ★¦العاب cr , callback_data=  GAME2 )
                       ],[
-        InlineKeyboardButton ('⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡️', url =f"https://t.me/pp_g3")              
+        InlineKeyboardButton ( ⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝⚡️ , url =f"https://t.me/cca6a")              
                  ],[
                 InlineKeyboardButton(
                         "◁", callback_data="close"),
@@ -380,13 +380,13 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺\n\n★¦العاب cr\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺." 
+               SOURCE_GAME = "⩹━★⊷━⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝━⊶★━⩺\n\n★¦العاب cr\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝━⊶★━⩺." 
 
                SORGAM_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡️', url =f"https://t.me/pp_g3")
+                      InlineKeyboardButton ( ⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝⚡️ , url =f"https://t.me/CCA6A")
                       ],[
-                         InlineKeyboardButton ('◁', callback_data= 'GAME')
+                         InlineKeyboardButton ( ◁ , callback_data=  GAME )
                     ]
                ]    
                await CallbackQuery.edit_message_text( 
