@@ -40,7 +40,7 @@ from random import  choice, randint
  )
 async def mmmezat(client, message):
         await message.reply_text(f"""**مرحبآ بك عزيزي » {message.from_user.mention}**في قسم مميزات سورس cr ميوزك\n
-⩹━★⊷⌯⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺
+⩹━★⊷⌯⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝⌯⊶★━⩺
 
 ★قايمه مميزات سورس cr 
 
@@ -90,12 +90,12 @@ async def mmmezat(client, message):
 ★ميزه ⦂ فنان+اكتب اسم فنان و هتجبلك اغانيه
 ★ميزه ⦂ اصدار+حول
 
-⩹━★⊷⌯⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⌯⊶★━⩺""",
+⩹━★⊷⌯⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝⌯⊶★━⩺""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "★⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3"),                        
+                        "★⌞ 𝐖𝐀𝐓𝐄𝐍 𝐌𝐔𝐒𝐈𝐂 ⌝⚡", url=f"https://t.me/CCA6A"),                        
                  ],[
                 InlineKeyboardButton(
                         "close", callback_data="close"),
