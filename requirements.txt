@@ -1,7 +1,7 @@
 aiofiles
 aiohttp
 apscheduler
-asyncio
+asyncio==3.8.4
 beautifulsoup4
 dnspython
 emojis
