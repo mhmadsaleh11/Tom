@@ -41,4 +41,7 @@ yt-dlp
 youtube-search
 youtube-search-python
 wget
-kvsqlite 
+kvsqlite
+client 
+ClientSession
+nclient_session
